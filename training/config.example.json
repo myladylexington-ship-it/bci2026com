@@ -1,0 +1,21 @@
+{
+  "backbone_sha256": "0792cb808c14e6b7a2bb2ce1dff379bc47bc54c49a779825bdfeb33bf8157178",
+  "training": {"epochs": 50, "micro_batch": 4},
+  "tasks": {
+    "disease_01": {
+      "lance": "data/disease_01/dataset.lance",
+      "lance_version": 1,
+      "subject_column": "subject_id",
+      "channels": 19,
+      "timepoints": 400,
+      "sample_rate": 200,
+      "label_values": [0, 1],
+      "scale_state": "unknown",
+      "uv_per_value": null,
+      "saturation_abs": null,
+      "folds": {
+        "0": {"train_rows": "splits/disease_01/0/train.npy", "val_rows": "splits/disease_01/0/val.npy"}
+      }
+    }
+  }
+}

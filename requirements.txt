@@ -1,0 +1,1 @@
+# PyTorch and NumPy are provided by the competition image.
